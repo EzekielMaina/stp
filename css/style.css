@@ -232,6 +232,10 @@ a:hover {
 .section-t8 {
   padding-top: 8rem;
 }
+.section-t83 {
+  padding-top: 4rem;
+}
+
 
 .section-t4 {
   padding-top: 4rem;
@@ -929,7 +933,24 @@ a:hover {
   }
 }
 
+.arrow-list {
+  list-style: none;
+  padding: 0;
+}
 
+.arrow-list li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+
+.arrow-list li::before {
+  content: '\f101'; /* Unicode character for right-angle arrow from FontAwesome */
+  font-family: 'Font Awesome 5 Free';
+  position: absolute;
+  left: 0;
+  color: #2eca6a; /* Greenish color */
+}
 
 .intro .spacial {
   -webkit-animation-delay: .2s;
@@ -967,7 +988,7 @@ a:hover {
 /*------/ Intro Single /------*/
 
 .intro-single {
-  padding: 12rem 0 3rem;
+  padding: 2rem 0 3rem;
 }
 
 .intro-single .title-single-box {
@@ -1984,7 +2005,7 @@ footer .credits {
   }
 
   .section-t8 {
-    padding-top: 4rem;
+    padding-top: 2rem;
   }
 
   .section-t4 {
