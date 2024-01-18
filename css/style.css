@@ -913,6 +913,23 @@ a:hover {
   text-transform: uppercase;
   letter-spacing: 0.030em;
 }
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .intro .intro-body .price-a {
+    padding: 0.8rem 1.2rem;
+    font-size: 0.9rem; /* Adjust the font size as needed for smaller screens */
+  }
+}
+
+/* Additional media queries for other screen sizes if necessary */
+@media (max-width: 576px) {
+  .intro .intro-body .price-a {
+    padding: 0.6rem 1rem;
+    font-size: 0.8rem;
+  }
+}
+
+
 
 .intro .spacial {
   -webkit-animation-delay: .2s;
